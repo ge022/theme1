@@ -43,20 +43,20 @@
   <div class="subfooter">
 
     <div class="container">
-      
+
       <div class="row">
         <div class="col-xs-12 subfooter-items">
 
 
-            <ul class="social-list">
-              <li class="list-item"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-item"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li class="list-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
+          <ul class="social-list">
+            <li class="list-item"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-item"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li class="list-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
 
-            <div class="copy-text">
-              &copy; <?php echo Date('Y'); ?> <?php bloginfo('name'); ?>.
-            </div>
+          <div class="copy-text">
+            &copy; <?php echo Date('Y'); ?> <?php bloginfo('name'); ?>.
+          </div>
 
 
         </div>
@@ -64,18 +64,15 @@
     </div>
 
   </div>
-  
-  <!-- <a id="back-to-top" href="#" class="show">Back to top</a> -->
+
 
 </footer>
 
+<a class="scroll-to-top smooth-nav" href="#top"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
 
 <!-- <?php wp_footer(); ?> -->
 
 
-<!-- Animated header -->
-<script src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/cbpAnimatedHeader.min.js"></script>
 <!-- jQuery -->
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.easing.1.3.js"></script>

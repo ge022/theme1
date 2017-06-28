@@ -215,7 +215,7 @@ header .bottombar {
 
 
 
-@media (min-width: 992px) {
+
 
   /* Shrink results */
 
@@ -236,7 +236,7 @@ header .bottombar {
   }
 
 
-}
+
 
 
 
@@ -425,8 +425,17 @@ footer .subfooter .social-list .list-item {
 }
 
 
-#back-to-top {
-  position: absolute;
+.scroll-to-top {
+  position: fixed;
   bottom: 40px;
   right: 40px;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity .2s, z-index 0s .2s;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  z-index: 99;
+  transition: opacity .2s;
 }
