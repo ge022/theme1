@@ -68,7 +68,7 @@
       </button>
 
       <a class="navbar-brand smooth-nav" href="#top">
-        <img class="img-fluid" src="<?php bloginfo('template_url') ?>/images/logo.png" alt="brand image">
+        <img class="img-fluid" src="<?php bloginfo('template_url') ?>/images/logo2.png" alt="brand image">
       </a>
 
 

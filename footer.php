@@ -2,17 +2,18 @@
   <div class="container">
     <div class="row">
 
-
-      <div class="col-md-4 col-xs-12">
-        <div class="footer-item">
+      <div class="col-md-4 col-xs-12 footer-item">
+        <div class="footer-inner-item">
           <h3>COMPANY NAME</h3>
-          <p class="footer-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus mauris nisl, vel porttitor est bibendum eu. Sed vel nibh sed odio egestas congue a eget urna. Ut euismod libero sed dignissim porta.
-            purus pulvinar, pharetra. </p>
+          <p class="footer-about">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus mauris nisl.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus mauris nisl.
+          </p>
         </div>
       </div>
 
-      <div class="col-md-4 col-xs-12">
-        <div class="footer-item the-company">
+      <div class="col-md-4 col-xs-12 footer-item">
+        <div class="footer-inner-item the-company">
           <h3>THE COMPANY</h3>
           <ul>
             <li><a href="#top">Who we are</a></li>
@@ -22,8 +23,8 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-xs-12">
-        <div class="footer-item">
+      <div class="col-md-4 col-xs-12 footer-item">
+        <div class="footer-inner-item">
           <h3>CONTACT US</h3>
           <div class="">
             <address>
@@ -42,25 +43,29 @@
   <div class="subfooter">
 
     <div class="container">
+      
       <div class="row">
-        <div class="col-sm-6">
-          <ul class="social-list">
-            <li class="list-item"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-item"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li class="list-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <div class="copy-text">
+        <div class="col-xs-12 subfooter-items">
+
+
+            <ul class="social-list">
+              <li class="list-item"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-item"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li class="list-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+            <div class="copy-text">
               &copy; <?php echo Date('Y'); ?> <?php bloginfo('name'); ?>.
-          </div>
+            </div>
+
+
         </div>
       </div>
     </div>
 
   </div>
   
-  <a id="back-to-top" href="#" class="show">Back to top</a>
+  <!-- <a id="back-to-top" href="#" class="show">Back to top</a> -->
 
 </footer>
 
