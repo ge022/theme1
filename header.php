@@ -13,20 +13,24 @@
   </title>
 
   <!-- <?php wp_head(); ?> -->
-  <!-- Bootstrap CSS -->
-  <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
-
-  <!-- Custom styles -->
-  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-
-  <!-- Font Awesome icons -->
-  <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
 
+  <!-- Font Awesome icons -->
+  <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
+  
+  <!-- Custom styles -->
+  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
+  <link href="<?php bloginfo('template_url'); ?>/css/about.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_url'); ?>/css/services.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_url'); ?>/css/contact.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -95,5 +99,3 @@
   </div>
 
 </header>
-
-
