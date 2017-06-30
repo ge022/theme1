@@ -82,6 +82,7 @@
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 <!-- Custom JS -->
 <script src="<?php bloginfo('template_url'); ?>/js/index.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/contact.js"></script>
 
 </body>
 </html>
