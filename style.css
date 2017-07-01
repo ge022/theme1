@@ -11,6 +11,11 @@ body {
 
 }
 
+body.modal-open {
+  padding-right: 0 !important;
+  overflow-y: scroll;
+}
+
 h1, h2,
 h3, h4,
 h5, h6 {
@@ -37,6 +42,19 @@ a:hover, a:focus {
   outline: none;
 }
 
+/* Buttons */
+.btn-primary {
+  background-color: rgba(41, 128, 185, 1);
+  border-color: rgba(41, 128, 185, 1);
+}
+
+.btn-primary:hover {
+  background-color: rgba(41, 128, 185, .7);
+  border-color: rgba(41, 128, 185, .7);
+}
+
+
+/* HEADER */
 
 header a {
   color: #292b2c;
@@ -311,12 +329,12 @@ main .down-arrow img {
 
 main .services {
   min-height: 750px;
-  background-color: #797979;
+  background-color: #ccc;
 }
 
 main .contact {
-  min-height: 750px;
-  background-color: #537994;
+  padding: 75px 0;
+  background: #fff;
 }
 
 

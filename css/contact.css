@@ -1,3 +1,4 @@
+
 .contact-heading {
   margin: 125px 0 80px 0;
 }
@@ -55,3 +56,38 @@
 
 /* END ANIMATED MINUS */
 
+
+.accordion .card {
+  border: 1px solid rgba(41, 128, 185, .7);;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.accordion .card-header {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+.accordion:last-child {
+  border-bottom: 1px solid rgba(41, 128, 185, .7);
+}
+
+/* Form */
+
+.contact .h5 {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+
+.contact form .form-control {
+  padding: 12px 20px;
+  border: 1px solid rgba(41, 128, 185, .7);
+}
+
+contact form .btn {
+  background-color: rgba(41, 128, 185, .7);
+  border: 1px solid rgba(41, 128, 185, .7);
+}

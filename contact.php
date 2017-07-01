@@ -16,7 +16,7 @@
       <div class="col-xs-12 col-md-6">
         <h4 class="about-subheader">Frequent Questions</h4>
 
-        <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
 
           <div class="card">
             <div class="card-header" role="tab" id="headingOne">
@@ -95,7 +95,65 @@
                     </div>
 
                   </div>
-                  
+
+                </a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="card-block">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch.
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header" role="tab" id="headingThree">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                   aria-expanded="false" aria-controls="collapseThree">
+
+                  <div class="accordian-card-header collapsed">
+
+                    <div>Question 4</div>
+
+                    <div class="minus">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </div>
+
+                  </div>
+
+                </a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="card-block">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch.
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header" role="tab" id="headingThree">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                   aria-expanded="false" aria-controls="collapseThree">
+
+                  <div class="accordian-card-header collapsed">
+
+                    <div>Question 5</div>
+
+                    <div class="minus">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </div>
+
+                  </div>
+
                 </a>
               </h5>
             </div>
@@ -117,6 +175,13 @@
         <div class="contact-form">
           <?php echo do_shortcode('[contact-form-7 id="88" title="Contact form 1"]') ?>
         </div>
+
+        <!--
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          Launch demo modal
+        </button>
+        -->
+        
         
       </div>
 

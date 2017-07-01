@@ -1,4 +1,7 @@
-$(function () {
+$(document).ready(function () {
+
+
+
 
   /* Accordion collapse animation */
   $('.collapse').on('show.bs.collapse', function () {
@@ -6,6 +9,5 @@ $(function () {
   }).on('hide.bs.collapse', function () {
     $(this).parent().find('.accordian-card-header').addClass("collapsed");
   });
-
 
 });
