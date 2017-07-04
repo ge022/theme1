@@ -1,0 +1,19 @@
+
+main .about {
+  position: relative;
+  padding-top: 150px;
+  height: 100vh;
+  background-size: cover;
+}
+
+main .down-arrow {
+  width: 100%;
+  text-align: center;
+  bottom: 50px;
+  position: absolute;
+}
+
+main .down-arrow img {
+  width: 96px;
+  height: auto;
+}

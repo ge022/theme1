@@ -247,6 +247,8 @@ header .bottombar {
     background: #fff;
     height: 60px;
     border: none;
+    -webkit-box-shadow: 5px 5px 15px 0 rgba(44, 62, 80, 0.07);
+    box-shadow: 5px 5px 15px 0 rgba(44, 62, 80, 0.07);
   }
 
   header .bottombar-shrink .navbar-brand img {
@@ -307,37 +309,6 @@ main section {
   position: relative;
   z-index: 10;
 }
-
-main .about {
-  position: relative;
-  padding-top: 150px;
-  height: 100vh;
-  background-size: cover;
-}
-
-main .down-arrow {
-  width: 100%;
-  text-align: center;
-  bottom: 50px;
-  position: absolute;
-}
-
-main .down-arrow img {
-  width: 96px;
-  height: auto;
-}
-
-main .services {
-  min-height: 750px;
-  background-color: #ccc;
-}
-
-main .contact {
-  padding: 75px 0;
-  background: #fff;
-}
-
-
 
 
 

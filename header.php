@@ -11,8 +11,8 @@
     <?php is_front_page() ? bloginfo('description') : wp_title(); ?>
 
   </title>
-
-  <!-- <?php wp_head(); ?> -->
+  
+  <?php wp_head(); ?>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">

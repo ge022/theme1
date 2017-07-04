@@ -70,7 +70,7 @@
 
 <a class="scroll-to-top smooth-nav" href="#top"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
 
-<!-- <?php wp_footer(); ?> -->
+<?php wp_footer(); ?>
 
 
 <!-- jQuery -->
